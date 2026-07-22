@@ -1,25 +1,32 @@
 # Awesome Remote MCP Servers
 
+
 > 📧 **Subscribe to the Newsletter** Stay informed about new MCP servers and updates:
 > [Subscribe](https://remotemcp.substack.com/subscribe)
-
 > Not a developer & looking for ChatGPT Custom Integrations or Claude Custom Connectors? [Check out the Remote MCP Server List](https://www.remote-mcp.com/)
-
 A curated, opinionated list of high-quality **remote** Model Context Protocol (MCP) servers. This repository focuses on listing official and well-maintained MCP servers that can be accessed over the internet, helping developers discover reliable and production-ready services for their AI applications.
+
 
 ## What is MCP?
 
+
 [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) is a protocol that enables AI models to interact with external tools and resources. Remote MCP servers allow clients to securely connect to these services over the internet.
+
 
 ### What are Connectors?
 
+
 This is OpenAI and Anthropic's branding for connecting to remote MCP servers.
+
 
 ### What is the ChatGPT Apps SDK
 
+
 These are just Remote MCP servers too! They additionally provide UI components as resources that can use displayed inside ChatGPT.
 
+
 ## Why Remote only?
+
 
 Remote MCP servers are a more secure and easier way to use MCP - compared to other methods of using MCP:
 - Legitictacy: Servers can be evaluated by checking the domain in the URL - it should be a familiar and trusted domain.
@@ -27,16 +34,22 @@ Remote MCP servers are a more secure and easier way to use MCP - compared to oth
 - Ease of use: You can copy & paste the server URL and you're away. No installing NPM packages.
 - They are the ONLY way to use MCP servers with Web based clients.
 
+
 ## How can I use an MCP server listed here?
 
+
 There are two main ways to use remote MCP servers on this list.
+
 
 1. [Using a MCP ready client](#mcp-client) (Claude, ChatGPT, Cursor, etc.)
 2. [In an API request to an LLM provider](#api-request) (OpenAI, Anthropic, Gemini, etc.)
 
+
 ## Authentication options
 
+
 This list has a mix of authentication options, different methods are better suited to certain use cases:
+
 
 - **OAuth 2.1**: This is an industry standard for authentication and is supported by MCP Clients like Claude. Adoption amongst clients is growing, but not yet widespread.
  For this all you need to connect is the server URL, and the client will guide you through the authentication flow.
@@ -45,9 +58,13 @@ This list has a mix of authentication options, different methods are better suit
 - **Open**: Easy to copy and paste and get started, but not as secure. This is the easiest way to get started, but not the most secure.
 
 
+
+
 ## Quality Criteria
 
+
 This is not an exhaustive list of all remote MCP servers. We maintain high standards for inclusion:
+
 
 - **Official Support**: Servers that are maintained by their underlying companies are preferred
 - **Production Ready**: Must be stable and suitable for production use
@@ -56,7 +73,9 @@ This is not an exhaustive list of all remote MCP servers. We maintain high stand
 - **Reliability**: Proven track record of uptime and performance
 - **Community**: Active user community and support channels
 
+
 ## Remote MCP Server List
+
 
 | Name | Category | URL | Authentication | Maintainer |
 |------|----------|-------------|----------------|------------|
@@ -84,6 +103,7 @@ This is not an exhaustive list of all remote MCP servers. We maintain high stand
 | GitHub | Software Development | `https://api.githubcopilot.com/mcp` | OAuth2.1 🔐 | [GitHub](https://github.com) |
 | Globalping | Software Development | `https://mcp.globalping.dev/sse` | OAuth2.1 | [Globalping](https://globalping.io/) |
 | Grafbase | Software Development | `https://api.grafbase.com/mcp` | OAuth 2.1 | [Grafbase](https://grafbase.com) |
+| Grabbit | Data Analysis | `https://mcp.grabbit.sh/mcp` | OAuth2.1 | [Grabbit](https://www.grabbit.sh/mcp-server) |
 | Hive Intelligence | Crypto | `https://hiveintelligence.xyz/mcp` | OAuth 2.1 | [Hive Intelligence](https://hiveintelligence.xyz/) |
 | Instant | Software Development | `https://mcp.instantdb.com/mcp` | OAuth | [Instant](https://www.instantdb.com/) |
 | Intercom | Customer Support | `https://mcp.intercom.com/sse` | OAuth2.1 | [Intercom](https://intercom.com) |
@@ -118,253 +138,3 @@ This is not an exhaustive list of all remote MCP servers. We maintain high stand
 | Sentry | Software Development | `https://mcp.sentry.dev/sse` | OAuth2.1 | [Sentry](https://sentry.io) |
 | Stack Overflow | Software Development | `https://mcp.stackoverflow.com` | OAuth2.1 | [StackOverflow](https://stackoverflow.com) |
 | Stripe | Payments | `https://mcp.stripe.com/` | OAuth2.1 & API Key | [Stripe](https://stripe.com) |
-| Stytch | Authentication | `http://mcp.stytch.dev/mcp` | OAuth2.1 | [Stytch](https://stytch.com) |
-| Supabase | Database | `https://mcp.supabase.com/mcp` | OAuth2.1 | [Supabase](https://supabase.com) |
-| Square | Payments | `https://mcp.squareup.com/sse` | OAuth2.1 | [Square](https://square.com) |
-| ThoughtSpot | Data Analytics | `https://agent.thoughtspot.app/mcp` | OAuth2.1 | [ThoughtSpot](https://thoughtspot.com) |
-| Turkish Airlines | Airlines | `https://mcp.turkishtechlab.com/mcp` | OAuth2.1 | [Turkish Technology](https://mcp.turkishtechlab.com/) |
-| TweetSave | Social Media | `https://mcp.tweetsave.org/sse` | Open | [TweetSave](https://tweetsave.org) |
-| xbird | Social Media | `https://xbirdapi.up.railway.app/mcp` | API Key | [xbird](https://github.com/checkra1neth/xbird-skill) |
-| Vercel | Software Development | `https://mcp.vercel.com/` | OAuth2.1 | [Vercel](https://vercel.com) |
-| VibeMarketing | Social Media | `https://vibemarketing.ninja/mcp` | OAuth2.1 | [VibeMarketing](https://vibemarketing.ninja) |
-| Webflow | CMS | `https://mcp.webflow.com/sse` | OAuth2.1 | [Webflow](https://webflow.com) |
-| Wix | CMS | `https://mcp.wix.com/sse` | OAuth2.1 | [Wix](https://wix.com) |
-| WebZum | Website Hosting | `https://webzum.com/api/mcp` | Open | [WebZum](https://webzum.com) |
-| Simplescraper | Web Scraping | `https://mcp.simplescraper.io/mcp` | OAuth2.1 | [Simplescraper](https://simplescraper.io) |
-| WayStation | Productivity | `https://waystation.ai/mcp` | OAuth2.1 | [WayStation](https://waystation.ai) |
-| Zenable | Security | `https://mcp.zenable.app/` | OAuth2.1 | [Zenable](https://zenable.io) |
-| Zine | Memory | `https://www.zine.ai/mcp` | OAuth2.1 | [Zine](https://www.zine.ai/) |
-| Cloudflare Docs | Documentation | `https://docs.mcp.cloudflare.com/sse` | Open | [Cloudflare](https://cloudflare.com) |
-| Astro Docs | Documentation | `https://mcp.docs.astro.build/mcp` | Open | [Astro](https://astro.build) |
-| Context Awesome | Specialised Dataset | `https://www.context-awesome.com/api/mcp` | Open | [Context Awesome](https://www.context-awesome.com/) |
-| Resemble AI | Documentation | `https://mcp.resemble.ai/sse` | Open | [Resemble AI](https://resemble.ai) |
-| DeepWiki | RAG-as-a-Service | `https://mcp.deepwiki.com/sse` | Open | [Devin](https://devin.ai/) |
-| Exa Search | Search | `https://mcp.exa.ai/mcp` | Open | [Exa](https://exa.ai) |
-| Hugging Face | Software Development | `https://hf.co/mcp` | Open | [Hugging Face](https://huggingface.co) |
-| Semgrep | Software Development | `https://mcp.semgrep.ai/sse` | Open | [Semgrep](https://semgrep.dev/) |
-| Remote MCP | MCP Directory | `https://mcp.remote-mcp.com` | Open | [Remote MCP](https://remote-mcp.com/) |
-| OpenMesh | Service Discovery | `https://api.openmesh.dev/mcp` | Open | [OpenMesh](https://openmesh.dev) |
-| OpenZeppelin Cairo Contracts | Software Development | `https://mcp.openzeppelin.com/contracts/cairo/mcp` | Open | [OpenZeppelin](https://openzeppelin.com) |
-| OpenZeppelin Solidity Contracts | Software Development | `https://mcp.openzeppelin.com/contracts/solidity/mcp` | Open | [OpenZeppelin](https://openzeppelin.com) |
-| OpenZeppelin Stellar Contracts | Software Development | `https://mcp.openzeppelin.com/contracts/stellar/mcp` | Open | [OpenZeppelin](https://openzeppelin.com) |
-| OpenZeppelin Stylus Contracts | Software Development | `https://mcp.openzeppelin.com/contracts/stylus/mcp` | Open | [OpenZeppelin](https://openzeppelin.com) |
-| LLM Text | Data Analysis | `https://mcp.llmtxt.dev/sse` | Open | [LLM Text](https://llmtxt.dev) |
-| GitMCP | Software Development | `https://gitmcp.io/docs` | Open | [GitMCP](https://gitmcp.io) |
-| Close | CRM | `https://mcp.close.com/mcp` | API Key | [Close](https://help.close.com/docs/mcp-server) |
-| Google Big Query | Data Analysis | `https://bigquery.googleapis.com/mcp` | API Key | [Google](https://docs.cloud.google.com/bigquery/docs/reference/mcp) |
-| Google Compute Engine	| Developer Tools | `https://compute.googleapis.com/mcp` | API Key | [Google](https://docs.cloud.google.com/compute/docs/reference/mcp) |
-| Google GKE | Developer Tools | `https://container.googleapis.com/mcp` | API Key | [Google](https://docs.cloud.google.com/kubernetes-engine/docs/reference/mcp) |
-| Google Maps | Mapping | `https://mapstools.googleapis.com/mcp` | API Key | [Google](https://developers.google.com/maps/ai/grounding-lite/reference/mcp) |
-| HubSpot | CRM | `https://app.hubspot.com/mcp/v1/http` | API Key | [HubSpot](https://hubspot.com) |
-| Needle | RAG-as-a-service | `https://mcp.needle-ai.com/mcp` | API Key | [Needle](https://needle-ai.com) |
-| Zapier | Automation | `https://mcp.zapier.com/api/mcp/mcp` | API Key | [Zapier](https://zapier.com) |
-| Apify | Web Data Extraction Platform | `https://mcp.apify.com` | API Key | [Apify](https://apify.com) |
-| Dappier | RAG-as-a-Service | `https://mcp.dappier.com/mcp` | API Key | [Dappier](https://dappier.com/) |
-| Mercado Libre | E-Commerce | `https://mcp.mercadolibre.com/mcp` | API Key | [Mercado Libre MCP Server](https://mcp.mercadolibre.com/) |
-| Mercado Pago | Payments | `https://mcp.mercadopago.com/mcp` | API Key | [Mercado Pago MCP Server](https://mcp.mercadopago.com/) |
-| SearchAPI | Search | `https://www.searchapi.io/mcp` | API Key | [SearchAPI](https://www.searchapi.io) |
-| Short.io | Link shortener | `https://ai-assistant.short.io/mcp` | API Key | [Short.io](https://short.io) |
-| zip1.io | Link shortener | `https://zip1.io/mcp` | Open | [zip1.io](https://zip1.io) |
-| Telnyx | Communication | `https://api.telnyx.com/v2/mcp` | API Key | [Telnyx](https://telnyx.com) |
-| Dodo Payments | Payments | `https://mcp.dodopayments.com/sse` | API Key | [Dodo Payments](https://dodopayments.com) |
-| Polar Signals | Software Development | `https://api.polarsignals.com/api/mcp/` | API Key | [Polar Signals](https://www.polarsignals.com/blog/posts/2025/07/17/the-mcp-for-performance-engineering) |
-| Manifold | Forecasting | `https://api.manifold.markets/v0/mcp` | Open | [Manifold](https://manifold.markets) |
-| Javadocs | Software Development | `https://www.javadocs.dev/mcp` | Open | [Javadocs.dev](https://javadocs.dev) |
-| CustomGPT.ai | RAG-as-a-service | `https://mcp.customgpt.ai` | API | [CustomGPT.ai](https://customgpt.ai) |
-| Ferryhopper | Other | `https://mcp.ferryhopper.com/mcp` | Open | [Ferryhopper](https://ferryhopper.github.io/fh-mcp/) |
-| SubwayInfo NYC | Other | `https://subwayinfo.nyc/mcp` | Open | [SubwayInfo NYC](https://subwayinfo.nyc) |
-| Wolfram | Productivity | `https://agenttools.wolfram.com/mcp` | Open | [Wolfram Research](https://www.wolfram.com/) |
-
-# Remote MCP Installation Guide
-
-> Kindy powered by [Install This MCP](https://github.com/janwilmake/install-this-mcp)
-
-
-## MCP Clients
-
-A complete list of MCP clients can be found [here](https://modelcontextprotocol.io/clients)
-
-**Server Name**: `My Awesome MCP Server`  
-**Server URL**: `https://mcp.my-awesome-server.com/sse`
-
-## Cursor
-
-**Instructions:** Add to `~/.cursor/mcp.json` or `.cursor/mcp.json` (project-specific)
-
-**Configuration:**
-```json
-{
-  "mcpServers": {
-    "test": {
-      "url": "https://mcp.my-awesome-server.com/sse"
-    }
-  }
-}
-```
-
----
-
-## VS Code
-
-**Instructions:** Add to VS Code settings.json
-
-**Configuration:**
-```json
-{
-  "mcp": {
-    "servers": {
-      "test": {
-        "type": "http",
-        "url": "https://mcp.my-awesome-server.com/sse"
-      }
-    }
-  }
-}
-```
-
----
-
-## Claude Desktop / Claude.ai
-
-**Instructions:** Go to Settings → Connectors → Add Custom Connector and fill in:
-- **Name**: test
-- **URL**: https://mcp.my-awesome-server.com/sse
-
-Please note that if you are part of an organisation, you may not have access to custom connectors at this point. Ask your org administator.
-
----
-
-## Claude Code
-
-**Command:**
-```bash
-claude mcp add --transport http "test" https://mcp.my-awesome-server.com/sse
-```
-
-**Instructions:** Run the command in your terminal
-
----
-
-## Windsurf
-
-**Instructions:** Add to your Windsurf MCP configuration
-
-**Configuration:**
-```json
-{
-  "mcpServers": {
-    "test": {
-      "serverUrl": "https://mcp.my-awesome-server.com/sse"
-    }
-  }
-}
-```
-
----
-
-## Cline
-
-**Instructions:** Go to MCP Servers section → Remote Servers → Edit Configuration
-
-**Configuration:**
-```json
-{
-  "mcpServers": {
-    "test": {
-      "url": "https://mcp.my-awesome-server.com/sse",
-      "type": "streamableHttp"
-    }
-  }
-}
-```
-
----
-
-## Gemini CLI
-
-**Instructions:** Add to `~/.gemini/settings.json`
-
-**Configuration:**
-```json
-{
-  "mcpServers": {
-    "test": {
-      "httpUrl": "https://mcp.my-awesome-server.com/sse"
-    }
-  }
-}
-```
-
----
-
-## ChatGPT
-
-**Instructions:** First, go to 'Settings -> Connectors -> Advanced Settings' and turn on 'Developer Mode'.
-
-Then, in connector settings click 'create'.
-      
-Fill in:
-
-- **Name**: test
-- **URL**: https://mcp.my-awesome-server.com/sse
-- **Authentication**: OAuth
-
-In a new chat ensure developer mode is turned on with the connector(s) selected.
-
-Please note that <a href="https://platform.openai.com/docs/guides/developer-mode" target="_blank">Developer Mode</a> must be enabled and this feature may not be available for everyone..
-
-
-### API Libraries
-
-Official support for MCP in API requests is supported by the following LLM providers:
-
-- [Anthropic](https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector)
-- [OpenAI](https://platform.openai.com/docs/guides/tools-remote-mcp)
-- [Gemini](https://ai.google.dev/gemini-api/docs/function-calling?example=meeting#model_context_protocol_mcp)
-
-Note that it's easier to get started with API Token, based authentication for these servers. See the [FAQs](#faqs) section for more details.
-
-
-## FAQs
-
-### Can I use an Oauth MCP server in an API request to an LLM provider?
-
-Yes, but you will need to manage your own OAuth authentication flow, in order to obtain an access token.
-A quick way to obtain an access token to test a server is to follow the instructions in Anthropic's guide [Obtaining an access token for testing](https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector#obtaining-an-access-token-for-testing) section.
-This is not generally recommended for production use, as it is not a secure way to authenticate users.
-
-### Why do some servers have a `/sse` and others a `/mcp`?
-
-The `/sse` endpoint is for the Server Sent Events (SSE) protocol. It is being slowly deprecated in favor of the `/mcp` endpoint.
-The `/mcp` endpoint is for the Streamed HTTP protocol.
-In the future some clients may only support adding servers by the prefix preceding the 'sse' or 'mcp' and self-discovering full URL.
-We will update this list as we see this happening.
-
-## Contributing
-
-We welcome contributions! Please follow these guidelines:
-
-1. Fork the repository
-2. Add your remote MCP server to the appropriate category
-3. Include the following information:
-   - Server name
-   - Category
-   - URL
-   - Authentication requirements (Only OAuth 2.0, following the MCP spec is supported)
-   - Example usage
-4. Submit a pull request
-
-## Acknowledgments
-
-- Inspired by the [Model Context Protocol](https://modelcontextprotocol.io/)
-- Server install guide [Install This MCP](https://github.com/janwilmake/install-this-mcp)
-
-## Community
-
-Join the MCP community to stay updated and connect with other developers:
-
-- [Reddit Community](https://www.reddit.com/r/mcp/)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
